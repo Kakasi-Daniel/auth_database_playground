@@ -1,0 +1,22 @@
+.card {
+  height: 300px;
+  border: 1px solid #fff;
+  padding: 20px;
+  overflow-y: scroll;
+  text-align: center;
+
+  & h1 {
+    margin-bottom: 20px;
+  }
+  
+  & p {
+    font-size: 12px;
+  }
+  
+  & .lower {
+    color: #aaa;
+  }
+
+}
+
+

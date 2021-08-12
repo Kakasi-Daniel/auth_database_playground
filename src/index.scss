@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.app {
+  width: 85%;
+  margin: 20px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.auth {
+  display: block;
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.auth input {
+  font-size: 20px;
+  padding: 10px 5px;
+  margin-left: 40px;
+  flex: 1;
+  border-radius: 20px;
+}
+
+.email,
+.pass {
+  display: flex;
+}
+
+.auth button {
+  margin: 20px;
+  font-size: 20px;
+  padding: 7px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.user button {
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.user {
+  padding: 20px;
+  position: fixed;
+}
+
+.error {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  color: red;
+  background: rgba(51, 51, 51, 0.8);
+}
